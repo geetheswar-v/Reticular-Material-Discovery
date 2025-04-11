@@ -1,0 +1,37 @@
+name: co2_capture
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2025.2.25=h06a4308_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.16=h5eee18b_0
+  - pip=25.0=py311h06a4308_0
+  - python=3.11.11=he870216_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=75.8.0=py311h06a4308_0
+  - sqlite=3.45.3=h5eee18b_0
+  - tk=8.6.14=h39e8969_0
+  - wheel=0.45.1=py311h06a4308_0
+  - xz=5.6.4=h5eee18b_1
+  - zlib=1.2.13=h5eee18b_1
+  - pip:
+      - gymnasium==1.1.1
+      - matplotlib==3.10.1
+      - nglview==3.1.4
+      - numpy==1.26.4
+      - pormake==0.2.2
+      - pymatgen==2023.12.18
+      - scikit-learn==1.6.1
+      - torch==2.8.0.dev20250410+cu128
+      - tqdm==4.67.1
