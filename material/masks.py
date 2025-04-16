@@ -1,4 +1,3 @@
-# Abstract Mask Base Class
 import abc
 import pormake as pm
 pm.log.logger.setLevel(pm.log.logging.CRITICAL)
